@@ -1,16 +1,23 @@
 {
 
-    "Name" : "Basic Attack",
-    "Type" : "Basic Attack Action",
-    "Text" : "Deal 36.",
-    "Cost" : [
+    "Name"   : "Basic Attack",
+    "Type"   : "Basic Attack Action",
+    "Text"   : "Deal 36.",
+    "Strike" : 54,
+    "Block"  : 18,
+
+    "Cost"     : [
         1
     ],
-    "Return" : [
+
+    "Return"   : [
         1
     ],
+
     "Function" : [
-        "Deal 36"
+        "target",
+        "player",
+        "deal"
     ]
 
 }

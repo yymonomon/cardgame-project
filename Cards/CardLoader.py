@@ -23,6 +23,13 @@ class Card:
         self.Return   = lstReturn
         self.Function = fncRulesText
 
+    def play(self):
+        '''
+        1. Pay Cost
+        2. For i in self.Function: excute i.
+        '''
+        pass
+
 def parseCardFunction(lstCardText):
     data = []
     for i in range(len(lstCardText)):
@@ -30,18 +37,22 @@ def parseCardFunction(lstCardText):
             case 'target':
                 i++
                 data.append(cFuncs.target(lstCardText[i]))
-            case 'deal':
-                i++
-                data.append(cFuncs.attack)
+            case 'strike':
+                data.append(cFuncs.strike())
+            case 'block':
+                data.append(cFuncs.block())
 
 def loadCard(strFileName):
     with open(strFileName, 'r') as f:
         data = json.load(f)
+
     card = Card(
         data['Name'],
         data['Type'],
         data['Text'],
         data['Cost'],
+        data['Strike'],
+        data['Block'],
         data['Return'],
         data['Function']
     )

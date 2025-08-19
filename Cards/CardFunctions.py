@@ -1,8 +1,8 @@
 
-def target(zone):
+def target(lstZone):
     print('target:')
-    for i in zone:
-        print(i)
+    for i in range(len(lstZone)):
+        print(f'{i+1}) {lstZone[i]}')
     return input('')
 
 def deal(intDamage, objTarget):
