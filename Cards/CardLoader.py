@@ -23,17 +23,13 @@ class Card:
         self.Return   = lstReturn
         self.Function = fncRulesText
 
-def parseCardFunction(lstCardText):
-    data = []
-    for i in range(len(lstCardText)):
-        match lstCardText[i]:
-            case 'target':
-                i++
-                data.append(cFuncs.target(lstCardText[i]))
-            case 'deal':
-                i++
-                data.append(cFuncs.attack)
-
+def parseCardFunctionIntoStack(objCard):
+    stack = []
+    for i in range(len(objCard.Function)):
+        match objCard.Function[i]:
+            pass
+            #TODO: Add cardFunctions -> stack.
+            
 def loadCard(strFileName):
     with open(strFileName, 'r') as f:
         data = json.load(f)
