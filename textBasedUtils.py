@@ -1,10 +1,13 @@
 import Players
-from Cards import CardLoaderUtil as clu
+from Cards import CardLoader as cload
 
 Character = ''
 
 def gameStart():
-    print("Game start... ")
-    print("Pick character")
-    #print(i for i in Players.lstPlayers)
-    Character = input('')
+    print("Game started... ")
+    print("Loading Cards...")
+    card = cload.loadCard("Cards/card.json")
+    print(card.Name)
+    arr = [card, card]
+    for i in arr:
+        print(i.Name)

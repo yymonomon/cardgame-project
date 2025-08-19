@@ -38,3 +38,12 @@
 > The starting deck includes basic offense and defense cards, as well as basic utilities.
 >
 > The starting inventory (extra deck in yu-gi-oh) depends on the chosen character and currently unlocked deck mods.
+
+> # Play
+> The player starts by drawing six. They may set any number of those cards to the bottom of the deck to draw that many again. Do this only once.
+>
+> Turns go as such:
+> - You may set any number of cards to gain the mana value and/or gain what is described in the return box.
+> - You may play cards by spending the set mana. Any non-instant card uses up one action point, which you have two of.
+> - When you play a non-instant card, the other player may respond with an action.
+> - 
