@@ -23,6 +23,7 @@ class Card:
         self.Return   = lstReturn
         self.Function = fncRulesText
 
+<<<<<<< HEAD
     def play(self):
         '''
         1. Pay Cost
@@ -31,17 +32,16 @@ class Card:
         pass
 
 def parseCardFunction(lstCardText):
-    data = []
-    for i in range(len(lstCardText)):
-        match lstCardText[i]:
-            case 'target':
-                i++
-                data.append(cFuncs.target(lstCardText[i]))
-            case 'strike':
-                data.append(cFuncs.strike())
-            case 'block':
-                data.append(cFuncs.block())
+    pass
 
+def parseCardFunctionIntoStack(objCard):
+    stack = []
+    for i in range(len(objCard.Function)):
+        match objCard.Function[i]:
+            pass
+            #TODO: Add cardFunctions -> stack.
+            
+>>>>>>> refs/remotes/origin/main
 def loadCard(strFileName):
     with open(strFileName, 'r') as f:
         data = json.load(f)
