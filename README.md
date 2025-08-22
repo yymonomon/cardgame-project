@@ -40,9 +40,9 @@
 > The modifications made cannot increase the deck list size to over 36.
 >
 > Some ideas of such look like this
-> - Flexible: Remove five attacks and five blocks. Get 10 "Combats".
-> - Gaurdian: Remove two attacks and two defends. Get 3 "Focus Deflects" and 1 "Basic Shield".
-> - Barbarian: Remove two attacks and two defends. Get 3 "Focus Strikes" and 1 "Basic Sword".
+> - Flexible: 10 "Combats", 7 "Boosts", 7 "Energizes"
+> - Gaurdian: 
+> - Brute: 
 
 > # Play
 > The player starts by drawing six. They may set any number of those cards to the bottom of the deck to draw that many again. Do this only once.
