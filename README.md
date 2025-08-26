@@ -4,15 +4,14 @@
   >
   > Cycles each have a central theme/mechanic.
   >
-  > Most of these are basic TCG mechanics, but with an arbitrary name.
+  > Most of these are basic TCG/TBC mechanics, but with an arbitrary name.
 
 
 |Cycle|Properties|Mechanic|
 |:---:|:---:|:---|
-|Temp|Heat, Cold|High temp increases damage. Low temp increases block. Works as a resource and stat meter. For every ## ticks of your combats, gain combat relative to temp. Heat and cold are two different resources that start at zero. Changes in pure temp, the stat, will change both in the same way, but changing either does not change temp.|
-|Health|Light, Dark|Works off specific health zones (ex: if your **life is between 180 and 360**, deal 50 damage). This cycle cares about controlling your health bar and your opponent's as best as you can. An extra mechanic is knowledge. Dark benefits slightly from keeping possible knowledge hidden, light benefits slightly by gaining/from giving knowledge (This might a seperate 2cycle).|
-|Base Stats|Ground, Sea, Plant|Ground refers to how powerful the effect of a card is. Ground cards provide power upfront. Sea refers to how many cards you may play before turn end. Sea cards give you more actions. Plant refers to the resource efficiency of a card. Plant cards give you more resources to work with.|
-|Permanence|Beast, Tool, Aura|Permanence is how long the card stays in effect. Beasts stay forever until destroyed, tools stay for a limited resource frame, auras' positive effects stay until a given time. Take note that these are the mechanical names. A 'beast' can be anything that stays in effect until destroyed, not just an animal.|
+|Temp|Heat, Cold|Temp is the attack:defence ratio of a beast, where Temp 0 means standard iun both. Temp is often used as a resource in both above and below 0, with a subtheme of status condition and board wide effects.|
+|Entropy|Light, Dark|Light and dark are the gain and use of resources, low and high entropy, and the factors of risk and reward. Light beasts and cards tend to give life, reduce chance/chaos, and boost others at their own expense. Dark is the opposite, where they use up life, increase the factor of luck/chaos, and and harm others for big short term boosts.|
+|Location|Ground, Sea, Plant|Ground, Sea and Plant embody: body and power, the playstyle of aggro; mind and flexibility, the playstyle of control/adaption; soul and utility, the playstyle of economy.|
 
 > # Rogue Progression
 > Player starts by choosing a character to play with and some modifications to the starting deck.
