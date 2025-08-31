@@ -9,8 +9,9 @@
 
 |Cycle|Properties|Mechanic|
 |:---:|:---:|:---|
-|Temp|Heat, Cold|Temp is the attack:defence ratio of a beast, where Temp 0 means standard iun both. Temp is often used as a resource in both above and below 0, with a subtheme of status condition and board wide effects.|
+|Temp|Heat, Cold|Temp is the attack:defence ratio of a beast, where Temp 0 means standard iun both. Temp is often used as a resource in both above and below 0, with a subtheme of status condition and board wide effects like fogs and weathers.|
 |Entropy|Light, Dark|Light and dark are the gain and use of resources, low and high entropy, and the factors of risk and reward. Light beasts and cards tend to give life, reduce chance/chaos, and boost others at their own expense. Dark is the opposite, where they use up life, increase the factor of luck/chaos, and and harm others for big short term boosts.|
+|Time|Fossil, Techno|Fossil and Techno act on what has happened and what will. They boost sequencing per-card, per-turn, and per-room. Fossil repesents the build FROM and history. Works off of foosilizing cards, which the beasts feed off of. Techno represents the build TO and advancement. Works off technofying cards, which boosts the card.|
 |Location|Ground, Sea, Plant|Ground, Sea and Plant embody: body and power, the playstyle of aggro; mind and flexibility, the playstyle of control/adaption; soul and utility, the playstyle of economy.|
 
 > # Rogue Progression
