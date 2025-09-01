@@ -11,8 +11,8 @@
 |:---:|:---:|:---|
 |Temp|Heat, Cold|Temp is the attack:defence ratio of a beast, where Temp 0 means standard iun both. Temp is often used as a resource in both above and below 0, with a subtheme of status condition and board wide effects like fogs and weathers.|
 |Entropy|Light, Dark|Light and dark are the gain and use of resources, low and high entropy, and the factors of risk and reward. Light beasts and cards tend to give life, reduce chance/chaos, and boost others at their own expense. Dark is the opposite, where they use up life, increase the factor of luck/chaos, and and harm others for big short term boosts.|
-|Time|Fossil, Techno|Fossil and Techno act on what has happened and what will. They boost sequencing per-card, per-turn, and per-room. Fossil repesents the build FROM and history. Works off of foosilizing cards, which the beasts feed off of. Techno represents the build TO and advancement. Works off technofying cards, which boosts the card.|
-|Location|Ground, Sea, Plant|Ground, Sea and Plant embody: body and power, the playstyle of aggro; mind and flexibility, the playstyle of control/adaption; soul and utility, the playstyle of economy.|
+|Time|Fossil, Techno|Fossil and Techno act on what has happened and what will. They're based off sequencing, upgrading and degrading. Temporal beasts can get boosted over time through incremental upgrades, called technofying, or degrade into fossils that are changed by what you have done, called fossilizing. Cards get the **temporal** keyword, which effects .|
+|Location|Ground, Sea, Plant|Ground, Sea and Plant embody: body and power, the playstyle of aggro. Time high strength beasts' combats to blast through rooms; mind and flexibility, the playstyle of adaption. Control your choices and weave through the enemy; soul and utility, the playstyle of economy. Defy death, gain resources and boost your beasts.|
 
 > # Rogue Progression
 > Player starts by choosing a character to play with and some modifications to the starting deck.
