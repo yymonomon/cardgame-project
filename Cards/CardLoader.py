@@ -7,20 +7,16 @@ class Card:
         strName,
         strType,
         strText,
-        intStrike,
-        intBlock,
-        lstCost,
-        lstReturn,
+        intCost,
+        intReturn,
         fncRulesText
     ):
 
         self.Name     = strName
         self.Type     = strType
         self.Text     = strText
-        self.Strike   = intStrike
-        self.Block    = intBlock
-        self.Cost     = lstCost
-        self.Return   = lstReturn
+        self.Cost     = intCost
+        self.Return   = intReturn
         self.Function = fncRulesText
 
 <<<<<<< HEAD
