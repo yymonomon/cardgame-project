@@ -47,8 +47,6 @@ def loadCard(strFileName):
         data['Type'],
         data['Text'],
         data['Cost'],
-        data['Strike'],
-        data['Block'],
         data['Return'],
         data['Function']
     )
